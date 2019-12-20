@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name        Stylish-speiseplan
+@namespace   sfrank
+@version     0.2.1
+@homepageURL https://github.com/SergejFrank/stylish-speiseplan
+@author      Sergej Frank
+==/UserStyle== */
+
+@-moz-document domain('kochwerk-web.webspeiseplan.de') {
+
+  /* === CHROME ============================================================= */
+	#app .topBar {
+		height: 5rem;
+	}
+}
