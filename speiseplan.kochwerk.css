@@ -1,88 +1,88 @@
 /* ==UserStyle==
 @name        Sane Speiseplan
 @namespace   sfrank
-@version     0.2.1
+@version     1.0.0
 @homepageURL https://github.com/SergejFrank/stylish-sane-teams
-@author      Sergej Frank
+@author      Sergej Frank <github@sergej-frank.de>
 ==/UserStyle== */
 
 @-moz-document domain("kochwerk-web.webspeiseplan.de") {
 
-/* === CHROME ============================================================= */
+    /* === CHROME ============================================================= */
 
-#app .topBar {
-    height: 7rem;
-}
+    #app .topBar {
+        height: 7rem;
+    }
 
-#app .topBar .outlet-logo {
-    padding: 0;
-}
+    #app .topBar .outlet-logo {
+        padding: 0;
+    }
 
-.menu .menuTitleImage {
-    display: none;
-    height: 0;
-}
+    .menu .menuTitleImage {
+        display: none;
+        height: 0;
+    }
 
-#app .topBar .modul-navigation .svgWrapper div:first-child {
-   padding: 1rem;
-}
+    #app .topBar .modul-navigation .svgWrapper div:first-child {
+    padding: 1rem;
+    }
 
-#app .topBar .modul-navigation .dropdown {
-    margin-top: 1rem;
-}
+    #app .topBar .modul-navigation .dropdown {
+        margin-top: 1rem;
+    }
 
-#app .topBar .modul-navigation .dropdown a ,
-#app .topBar .modul-navigation .svgWrapper {
-    height: 4rem;
-}
+    #app .topBar .modul-navigation .dropdown a ,
+    #app .topBar .modul-navigation .svgWrapper {
+        height: 4rem;
+    }
 
-#app .topBar .modul-navigation .dropdown a ,
-#app .topBar .modul-navigation .svgWrapper {
-    line-height: 4.25rem;
-}
+    #app .topBar .modul-navigation .dropdown a ,
+    #app .topBar .modul-navigation .svgWrapper {
+        line-height: 4.25rem;
+    }
 
-#app .topBar .modul-navigation .dropdown a svg {
-    display: none;
-}
+    #app .topBar .modul-navigation .dropdown a svg {
+        display: none;
+    }
 
-#app .topBar .modul-navigation .dropdown a div:first-child {
-    max-width: 1rem;
-}
+    #app .topBar .modul-navigation .dropdown a div:first-child {
+        max-width: 1rem;
+    }
 
-.menuToolBarWrapper .menuToolBar {
-    background-color: white;
-}
-
-#app .topBar .main-settings .dropdown .settingsWrapper,
-#app .topBar .modul-navigation .dropdown .dropdown-menu,
-#app .topBar .modul-navigation {
-    border: none;
-    box-shadow: none;
-}
-
-#app .topBar .main-settings .dropdown .btn {
-    margin: 0;
-    height: 7rem;
+    .menuToolBarWrapper .menuToolBar {
         background-color: white;
-}
+    }
 
-.menuToolBarWrapper .menuToolBar .dayBtn .dayDate, .menuToolBarWrapper .menuToolBar .weekBtn .weekDate {
-    font-size: 1rem;
-    line-height: 1.45rem;
-}
+    #app .topBar .main-settings .dropdown .settingsWrapper,
+    #app .topBar .modul-navigation .dropdown .dropdown-menu,
+    #app .topBar .modul-navigation {
+        border: none;
+        box-shadow: none;
+    }
 
-.menuToolBarWrapper .menuToolBar .weekBtn,
-.menuToolBarWrapper .menuToolBar .dayBtn{
-    padding: 0.5rem;
-    height: 5rem;
-}
+    #app .topBar .main-settings .dropdown .btn {
+        margin: 0;
+        height: 7rem;
+            background-color: white;
+    }
 
-.menuToolBarWrapper .menuToolBar {
-    min-height: 0;
-}
+    .menuToolBarWrapper .menuToolBar .dayBtn .dayDate, .menuToolBarWrapper .menuToolBar .weekBtn .weekDate {
+        font-size: 1rem;
+        line-height: 1.45rem;
+    }
 
-.menuToolBarWrapper .menuToolBar .menu-toggle-personal-filter-wrapper .menuTogglePersonalFilter,
-.menuToolBarWrapper .menuToolBar .menuToolbarElement{
-    height: 5rem;
-}
+    .menuToolBarWrapper .menuToolBar .weekBtn,
+    .menuToolBarWrapper .menuToolBar .dayBtn{
+        padding: 0.5rem;
+        height: 5rem;
+    }
+
+    .menuToolBarWrapper .menuToolBar {
+        min-height: 0;
+    }
+
+    .menuToolBarWrapper .menuToolBar .menu-toggle-personal-filter-wrapper .menuTogglePersonalFilter,
+    .menuToolBarWrapper .menuToolBar .menuToolbarElement{
+        height: 5rem;
+    }
 }
