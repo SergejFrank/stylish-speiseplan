@@ -1,4 +1,4 @@
-@-moz-document domain("kochwerk-web.webspeiseplan.de") {
+
 /* ==UserStyle==
 @name        Stylish Speiseplan
 @namespace   sfrank
@@ -6,6 +6,8 @@
 @homepageURL https://github.com/SergejFrank/stylish-speiseplan
 @author      Sergej Frank
 ==/UserStyle== */
+
+@-moz-document domain("kochwerk-web.webspeiseplan.de") {
 
 /* === CHROME ============================================================= */
 
