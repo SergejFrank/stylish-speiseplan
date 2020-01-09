@@ -85,4 +85,8 @@
     .menuToolBarWrapper .menuToolBar .menuToolbarElement{
         height: 5rem;
     }
+    
+    .menu .menuListWrapper .meal .interactions {
+         display: none;
+    }
 }
